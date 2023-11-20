@@ -10,6 +10,7 @@
 
 (function() {
     window.addEventListener('load', function() {
-        document.getElementsByClassName("inner_stuff")[0].remove()
+        document.getElementsByClassName("inner_stuff")[0].remove();
+        document.getElementsByClassName("scaleimages")[1].remove();
     });
 })();
